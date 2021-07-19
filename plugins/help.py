@@ -4,7 +4,14 @@ from pyrogram import Client, Filters
 
 async def start(client, message):
 
-    helptxt = f"Currently Only supports Youtube Single  (No playlist) Just Send Youtube Url Join @PolygonStreetBet For Help"
+    helptxt = f"How to use the bot? 
+
+🚸Go To "Youtube" Sharch Any Video.
+🚸Drop The YouTube Video Link Here.
+🚸Easy Download.
+🚸 Owner : @GodFatherMob
+
+"Please support the Bangladeshi Developers For More Bot""
 
     await message.reply_text(helptxt)
 
