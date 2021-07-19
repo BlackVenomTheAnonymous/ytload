@@ -16,7 +16,11 @@ async def start(client, message):
 
     ])
 
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/📊Download Any YouTube Video.
+📊Super First.
+📊Bangladeshi Development.
+📊Join Support For Help.
+📊Use /help For Check How To Use It."
 
     await message.reply_text(welcomed, reply_markup=joinButton)
 
